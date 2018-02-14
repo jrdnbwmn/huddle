@@ -1,1 +1,3 @@
-# huddle
+# Huddle
+
+Instructions
