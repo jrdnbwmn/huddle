@@ -52,7 +52,7 @@ h6 { color: $gray; }
 }
 
 // Paragraph
-p { margin: 0 auto $p-mb auto; }
+p { margin: 0; }
 
 // Small
 small,
@@ -71,7 +71,7 @@ hr {
 
 // Blockquote
 .blockquote {
-    border-left: 4px solid $border-color;
+    border: none;
     font-family: $sans-serif;
     font-size: $font-size--lg;
     font-style: italic;
@@ -104,3 +104,6 @@ hr {
 .font--heading           { font-family: $font-family--heading }
 .font--reading           { font-family: $font-family--reading }
 .font--ui                { font-family: $font-family--ui }
+.font--accent            { font-family: $font-family--accent }
+.font--serif             { font-family: $serif }
+

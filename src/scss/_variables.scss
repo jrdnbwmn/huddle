@@ -30,17 +30,17 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              Raleway, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$serif:                   Georgia, Times, serif !default;
-$monospace:               Monaco, Menlo, Consolas,
+$serif:                   "Bungee Shade", Georgia, Times, serif !default;
+$accent:                  Inconsolata, Monaco, Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $sans-serif !default;
 $font-family--heading:    $sans-serif !default;
-$font-family--reading:    $serif !default;
+$font-family--reading:    $sans-serif !default;
 $font-family--ui:         $sans-serif !default;
-$font-family--code:       $monospace !default;
+$font-family--accent:     $accent !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
@@ -64,8 +64,8 @@ $h6--desktop:             .75rem !default;
 $text-color:              $dark-gray !default;
 
 // Text sizes
-$font-size--mobile:       14px !default;
-$font-size--desktop:      15px !default;
+$font-size--mobile:       17px !default;
+$font-size--desktop:      19px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
@@ -87,7 +87,7 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     45em !default;
+$max-container-width:     1100px !default;
 
 
 // Spaces
