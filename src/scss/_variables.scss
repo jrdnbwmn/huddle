@@ -1,7 +1,7 @@
 // Colors
 // -------------------------------------------------------------------
 // Grayscale
-$gray-base:               #87919d !default;
+$gray-base:               #757e89 !default;
 
 $black:                   #000 !default;
 $darkest-gray:            darken($gray-base, 36%) !default;
@@ -32,7 +32,7 @@ $baseline:                .4rem !default;
 // Font families
 $sans-serif:              Raleway, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$serif:                   "Bungee Shade", Georgia, Times, serif !default;
+$serif:                   "Abril Fatface", Georgia, Times, serif !default;
 $accent:                  Inconsolata, Monaco, Menlo, Consolas,
                           monospace !default;
 
@@ -71,7 +71,7 @@ $font-size--sm:           $h5 !default;
 
 // Weights
 $font-weight--base:       400 !default;
-$font-weight--heading:    700 !default;
+$font-weight--heading:    900 !default;
 
 // Line heights
 $line-height--base:       $baseline*4 !default;
@@ -112,7 +112,7 @@ $active-link-color:       darken($primary-color, 25%) !default;
 
 // Buttons
 // -------------------------------------------------------------------
-$button-padding:          .45rem 1rem .35rem !default;
+$button-padding:          .95rem 2rem .85rem !default;
 $button-padding--sm:      .1rem .6rem 0 !default;
 
 
@@ -125,7 +125,7 @@ $form-padding:            .45rem .8rem .35rem !default;
 // -------------------------------------------------------------------
 $border-color:            $light-gray !default;
 $border-style:            solid !default;
-$border-radius:           3px !default;
+$border-radius:           7px !default;
 $border-width:            1px !default;
 
 

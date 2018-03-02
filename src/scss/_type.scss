@@ -74,10 +74,14 @@ hr {
     border: none;
     font-family: $sans-serif;
     font-size: $font-size--lg;
-    font-style: italic;
     max-width: 100%; // Prevents it from breaking out of container
     margin-bottom: $p-mb;
     padding-left: $baseline*3;
+
+    cite {
+        font-style: normal;
+        font-weight: $font-weight--heading;
+    }
 }
 
 .blockquote:before, .blockquote:after { content: ""; }
@@ -86,7 +90,7 @@ hr {
 // Utilities
 // -------------------------------------------------------------------
 // Weight
-.bold                    { font-weight: bold; }
+.bold                    { font-weight: $font-weight--heading; }
 .regular                 { font-weight: normal; }
 .italic                  { font-style: italic; }
 
