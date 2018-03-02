@@ -1,7 +1,7 @@
 // Colors
 // -------------------------------------------------------------------
 // Grayscale
-$gray-base:               #757e89 !default;
+$gray-base:               #7c7f7a !default;
 
 $black:                   #000 !default;
 $darkest-gray:            darken($gray-base, 36%) !default;
@@ -12,7 +12,7 @@ $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
 // Hues
-$blue:                    #428bca !default;
+$blue:                    #44f7b5 !default;
 $green:                   #6fbb57 !default;
 $orange:                  #f0ad4e !default;
 
@@ -30,17 +30,17 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              Raleway, Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              Inconsolata, Varela, Raleway, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
 $serif:                   "Abril Fatface", Georgia, Times, serif !default;
-$accent:                  Inconsolata, Monaco, Menlo, Consolas,
+$monospace:               Monaco, Menlo, Consolas,
                           monospace !default;
 
-$font-family--base:       $sans-serif !default;
-$font-family--heading:    $sans-serif !default;
-$font-family--reading:    $sans-serif !default;
-$font-family--ui:         $sans-serif !default;
-$font-family--accent:     $accent !default;
+$font-family--base:       $monospace !default;
+$font-family--heading:    $monospace !default;
+$font-family--reading:    $monospace !default;
+$font-family--ui:         $monospace !default;
+$font-family--accent:     $monospace !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
@@ -98,7 +98,7 @@ $space-3:                 $baseline*8 !default;
 $space-4:                 $baseline*11 !default;
 
 // Specific margins
-$p-mb:                    $space-2 !default;
+$p-mb:                    $space-1 !default;
 $heading-mb:              $p-mb !default;
 
 
