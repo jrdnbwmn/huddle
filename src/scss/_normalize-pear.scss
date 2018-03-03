@@ -60,7 +60,7 @@ ol {
 }
 
 // Make font family consistent
-code, kbd, pre, samp { font-family: $font-family--accent; }
+code, kbd, pre, samp { font-family: $monospace; }
 
 // Address variances font weight/styles and line heights.
 b, strong { line-height: inherit; }

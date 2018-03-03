@@ -73,10 +73,9 @@ hr {
 .blockquote {
     border: none;
     font-family: $monospace;
-    font-size: $font-size--lg;
+    font-size: 1rem;
     max-width: 100%; // Prevents it from breaking out of container
     margin-bottom: $p-mb;
-    padding-left: $baseline*3;
 
     cite {
         font-style: normal;
@@ -108,6 +107,5 @@ hr {
 .font--heading           { font-family: $font-family--heading }
 .font--reading           { font-family: $font-family--reading }
 .font--ui                { font-family: $font-family--ui }
-.font--accent            { font-family: $font-family--accent }
 .font--serif             { font-family: $serif }
 

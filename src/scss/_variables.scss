@@ -12,7 +12,7 @@ $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
 // Hues
-$blue:                    #44f7b5 !default;
+$blue:                    #4C83FF !default;
 $green:                   #6fbb57 !default;
 $orange:                  #f0ad4e !default;
 
@@ -30,17 +30,16 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              Inconsolata, Varela, Raleway, Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$serif:                   "Abril Fatface", Georgia, Times, serif !default;
-$monospace:               Monaco, Menlo, Consolas,
+$serif:                   Georgia, Times, serif !default;
+$monospace:               "Space Mono", Monaco, Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $monospace !default;
 $font-family--heading:    $monospace !default;
 $font-family--reading:    $monospace !default;
 $font-family--ui:         $monospace !default;
-$font-family--accent:     $monospace !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
@@ -64,14 +63,14 @@ $h6--desktop:             .75rem !default;
 $text-color:              $dark-gray !default;
 
 // Text sizes
-$font-size--mobile:       17px !default;
+$font-size--mobile:       15px !default;
 $font-size--desktop:      19px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
 // Weights
 $font-weight--base:       400 !default;
-$font-weight--heading:    900 !default;
+$font-weight--heading:    700 !default;
 
 // Line heights
 $line-height--base:       $baseline*4 !default;
